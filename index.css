@@ -116,3 +116,46 @@ body {
   font-family: poppins;
   font-weight: 500;
 }
+
+@media (max-width: 620px) {
+  body {
+    gap: 30px;
+  }
+
+  #theme-button {
+    width: 48px;
+    height: 48px;
+  }
+  #theme-button svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  #profile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #profile img {
+    width: 124px;
+    height: 124px;
+  }
+
+  #profile-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #profile-text h1 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  #profile-text p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
