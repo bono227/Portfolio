@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #3d3d3d;
+  font-family: Poppins;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#theme-button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 10px;
+}
+
+#theme-button {
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: white;
+  border: none;
+  box-sizing: border-box;
+}
+
+#profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#profile-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  border-radius: 40px;
+}
+
+#profile-pic-outline {
+  background-color: white;
+  border: 5px solid orange;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  display: flex;
+}
+
+#profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#name span {
+  font-size: 46px;
+  text-align: center;
+}
+#name p {
+  margin: 0px;
+  text-align: center;
+}
+
+#contact-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: solid, black, 2px;
+  margin-top: 20px;
+}
+
+#fact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#facts-section {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+#facts-container p {
+  font-size: 25px;
+  font-weight: 600px;
+}
+
+.facts {
+  width: 200px;
+}
+
+.facts p {
+  text-align: center;
+  margin: 10px;
+}
+
+#download-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+#download-container button {
+  height: 60px;
+  width: 300px;
+  background-color: transparent;
+  font-size: 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-family: poppins;
+  font-weight: 500;
+}
